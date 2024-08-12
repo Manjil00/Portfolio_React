@@ -16,10 +16,10 @@ cursor-pointer flex justify-center items-center'>Manjil Maharjan</h1>
     </div>
     <div className={`bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl font-writingFont">
-        <Link to="/"><li className="hover:text-red-600">Home</li></Link>
-        <Link to="/Product"><li className="hover:text-red-600">Projects</li></Link>
-        <Link to="/Blog"><li className="hover:text-red-600">Experience</li></Link>
-        <Link to="/AboutUs"><li className="hover:text-red-600">Get in Touch</li></Link>
+        <Link to="/"><li className="hover:text-crimson">Home</li></Link>
+        <Link to="/Product"><li className="hover:text-crimson">Projects</li></Link>
+        <Link to="/Blog"><li className="hover:text-crimson">Experience</li></Link>
+        <Link to="/AboutUs"><li className="hover:text-crimson">Get in Touch</li></Link>
         </ul>
     </div>
     <div>

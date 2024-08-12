@@ -14,14 +14,14 @@ module.exports = {
         'word-rotate-mobile': {
             '0%, 100%': { transform: 'translateY(0)' },
             '20%, 25%': { transform: 'translateY(-25px)' },
-            '45%, 50%': { transform: 'translateY(-45px)' },
+            '45%, 50%': { transform: 'translateY(-46px)' },
             '70%, 75%': { transform: 'translateY(-75px)' },
             '95%': { transform: 'translateY(-100px)' },
         },
         'word-rotate-desktop': {
             '0%, 100%': { transform: 'translateY(0)' },
             '20%, 25%': { transform: 'translateY(-25px)' },
-            '45%, 50%': { transform: 'translateY(-65px)' },
+            '45%, 50%': { transform: 'translateY(-66px)' },
             '70%, 75%': { transform: 'translateY(-90px)' },
             '95%': { transform: 'translateY(-100px)' },
             '95%': { transform: 'translateY(-130px)' },

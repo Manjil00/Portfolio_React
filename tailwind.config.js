@@ -19,12 +19,12 @@ module.exports = {
             '95%': { transform: 'translateY(-100px)' },
         },
         'word-rotate-desktop': {
-            '0%, 100%': { transform: 'translateY(0)' },
-            '20%, 25%': { transform: 'translateY(-25px)' },
-            '45%, 50%': { transform: 'translateY(-66px)' },
-            '70%, 75%': { transform: 'translateY(-90px)' },
-            '95%': { transform: 'translateY(-100px)' },
-            '95%': { transform: 'translateY(-130px)' },
+            '0%, 100%': { transform: 'translateY(5)' },
+            '20%, 25%': { transform: 'translateY(-66px)' },
+            '45%, 50%': { transform: 'translateY(-120px)' },
+            '70%, 75%': { transform: 'translateY(-180px)' },
+            '95%': { transform: 'translateY(-210px)' },
+            '95%': { transform: 'translateY(-240px)' },
 
         },
         },

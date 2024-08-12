@@ -20,11 +20,11 @@ module.exports = {
         },
         'word-rotate-desktop': {
             '0%, 100%': { transform: 'translateY(5)' },
-            '20%, 25%': { transform: 'translateY(-66px)' },
-            '45%, 50%': { transform: 'translateY(-120px)' },
-            '70%, 75%': { transform: 'translateY(-180px)' },
-            '95%': { transform: 'translateY(-210px)' },
-            '95%': { transform: 'translateY(-240px)' },
+            '20%, 25%': { transform: 'translateY(-69px)' },
+            '45%, 50%': { transform: 'translateY(-123px)' },
+            '70%, 75%': { transform: 'translateY(-183px)' },
+            '95%': { transform: 'translateY(-213px)' },
+            '95%': { transform: 'translateY(-243px)' },
 
         },
         },

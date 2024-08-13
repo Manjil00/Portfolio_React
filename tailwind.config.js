@@ -37,6 +37,12 @@ module.exports = {
         bgcolor: '#D9D9D9',
         appleblack: '#1A1A1A',
         crimson: '#DC143C',
+        
+        sacramento:'#162114',
+        pine: '#294122',
+        tangerine:'#EB3D00',
+        chiffon:'#FFEDD2',
+
         },
     },
     },

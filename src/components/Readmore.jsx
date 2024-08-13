@@ -26,7 +26,7 @@ return (
 <button onClick={()=>{
     setShowFullText(!showFullText)}
     }
-    className='text-blue-500 text-xs md:text-xl mx-auto'>
+    className='text-blue-500 text-xs md:text-xl mx-auto font-writingFont'>
 {showFullText?"Read Less":"...Read More"}
 </button>
 </h1>

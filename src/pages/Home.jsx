@@ -23,6 +23,7 @@ const Home = () => {
     const duration = 600;
 
     useEffect(()=>{
+        document.title = "Manjil's Portfolio";
         Aos.init({offset:100,duration:600});
 
     },[offset,
@@ -44,7 +45,7 @@ return (
     </div>
 
     <div className="sectionRight w-[40%] h-[350px] md:h-[700px]  ">
-        <img src='./images/me.png' className='z-5 rounded-full bg-white w-[150px] h-[150px] md:w-[600px] md:h-[600px] mt-8 ml-1 md:mt-10 md:ml-10' alt='myphoto' data-aos="fade-up"></img>
+        <img src='./images/profile.jpg' className='z-5 rounded-full bg-white w-[150px] h-[150px] md:w-[600px] md:h-[600px] mt-8 ml-1 md:mt-10 md:ml-10' alt='myphoto' data-aos="fade-up"></img>
     </div>
         </div>
 

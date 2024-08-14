@@ -4,12 +4,16 @@ import Marquee from "react-fast-marquee";
 const Projects = () => {
 return (
     <div className="Section4 w-full h-auto md:h-[600px] mt-16 flex flex-col md:flex-row gap-6 md:gap-4">
-    <div className="LeftS4 w-full md:w-[50%] h-[300px] md:h-full flex flex-col gap-4">
-        <div className="left-top rounded-xl w-full h-[200px] md:h-[50%] shadow-xl shadow-appleblack">
+    <div className="LeftS4 w-full md:w-[50%] h-[auto] flex flex-col gap-4">
+        <div className="left-top rounded-xl w-full h-[auto] shadow-xl shadow-appleblack">
         <h1 className="font-boldfont text-center md:text-start ml-5 mt-5 text-md md:text-5xl text-crimson">Projects</h1>
         <p className="text-sm md:text-xl text-start m-5">
-            lorem ipsum
-            <br />ipsum
+        I'm a passionate web developer with a strong foundation in React.js,
+        having built several projects including API-integrated applications,
+        e-commerce websites, and more. As I continue to grow,
+        I'm diving into full-stack development, focusing on building dynamic and responsive websites and apps using the MERN stack.
+        My journey is driven by a love for crafting seamless digital experiences.
+        <br />
 
         </p>
         </div>

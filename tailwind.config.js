@@ -28,6 +28,7 @@ module.exports = {
 
         },
         },
+
         animation: {
         'bounce-slow': 'bounce 2s linear infinite',
         'word-rotate-mobile': 'word-rotate-mobile 10s ease infinite',
@@ -42,6 +43,7 @@ module.exports = {
         pine: '#294122',
         tangerine:'#EB3D00',
         chiffon:'#FFEDD2',
+        gradientblue:'#c8cee8',
 
         },
     },

@@ -18,12 +18,12 @@ return (
     
     <div className="left-b-right w-full h-full rounded-xl shadow-xl shadow-appleblack">
         <Marquee pauseOnHover={false} direction='right' delay={1} gradient={true} gradientWidth={20} className="w-full h-full flex justify-center items-center gap-8 rounded-xl ">
-        <img src="./projectimg/news.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
-        <img src="./projectimg/weather.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
-        <img src="./projectimg/figmaecom.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
-        <img src="./projectimg/figma3.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
-        <img src="./projectimg/figma1.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
-        <img src="./projectimg/figma2.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/news.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/weather.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/figmaecom.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/figma3.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/figma1.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
+        <img src="./images/figma2.png" className="w-full h-[150px]  md:h-[300px]  object-cover" alt="NewsWapi" />
 
 
         </Marquee>
@@ -35,11 +35,11 @@ return (
         <Marquee pauseOnHover={false} direction='left' delay={1} gradient={true} gradientWidth={20} className="w-full h-full flex justify-center items-center gap-6 cursor-pointer rounded-xl">
         <div className="w-full h-full  flex justify-center items-center overflow-hidden gap-4">
             {/* <img src="../projectimg/figmaecom.png" className="w-full h-[300px]  md:h-[600px]  object-cover" alt="e-com0" /> */}
-            <img src="../projectimg/nursery1.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com1" />
-            <img src="../projectimg/nursery2.png" className="w-full h-[300px]  md:h-[600px]  object-cover" alt="e-com2" />
-            <img src="../projectimg/nursery3.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com3" />
-            <img src="../projectimg/nursery4.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com4" />
-            <img src="../projectimg/figmaecom.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com5" />
+            <img src="../images/nursery1.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com1" />
+            <img src="../images/nursery2.png" className="w-full h-[300px]  md:h-[600px]  object-cover" alt="e-com2" />
+            <img src="../images/nursery3.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com3" />
+            <img src="../images/nursery4.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com4" />
+            <img src="../images/figmaecom.png" className="w-full h-[300px]  md:h-[600px]   object-cover" alt="e-com5" />
         </div>
         </Marquee>
     </div>

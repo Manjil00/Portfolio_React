@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx"; //ICONS
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Nav = () => {
@@ -14,13 +14,13 @@ return (
 cursor-pointer flex justify-center items-center'>Manjil Maharjan</h1>
 
     </div>
-    <div className={` bg-white absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
+    <div className={` bg-transparent absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>
         <ul className=" cursor-pointer flex flex-col gap-4 md:flex-row  md:gap-8 md:justify-evenly md:text-xl font-writingFont">
-        <Link to="/"><li className="hover:text-crimson">Home</li></Link>
-        <Link to="/Product"><li className="hover:text-crimson">Projects</li></Link>
-        <Link to="/Blog"><li className="hover:text-crimson">Experience</li></Link>
-        <Link to="/Blog"><li className="hover:text-crimson">Tech Stack</li></Link>
-        <Link to="/AboutUs"><li className="hover:text-crimson">Get in Touch</li></Link>
+        <li className="hover:text-crimson"><HashLink smooth to="#section-2">Projects</HashLink></li>
+        <li className="hover:text-crimson"><HashLink smooth to="#section-4">Learnings</HashLink></li>
+        <li className="hover:text-crimson"><HashLink smooth to="#section-5">Experience</HashLink></li>
+        <li className="hover:text-crimson"><HashLink smooth to="#section-6">Tech Stack</HashLink></li>
+        <li className="hover:text-crimson"><HashLink smooth to="#section-7">Get in Touch</HashLink></li>
         </ul>
     </div>
     <div>

@@ -10,7 +10,7 @@
 
 .button-default {
     @apply w-[100px] h-[40px] md:h-[50px] md:w-[200px]
-    bg-white text-xs md:text-sm text-black rounded-xl cursor-pointer
+    bg-transparent text-xs md:text-sm text-black rounded-xl cursor-pointer
     hover:h-[50px]
     hover:md:h-[50px] hover:w-[120px] hover:md:w-[220px] duration-100
     shadow-xl shadow-appleblack flex items-center justify-center gap-2

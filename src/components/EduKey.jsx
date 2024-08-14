@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 
 const EduKey = () => {
 
-const offset = 300;  // Example value for offset
+const offset = 300;
 const duration = 600;
 
 useEffect(()=>{
@@ -15,10 +15,10 @@ duration])
 
 return (
 
-<div className="Section-3 mt-[30px] md:mt-[80px] h-[300px] md:h-[400px] w-full flex shadow-2xl shadow-appleblack p-5 bg-white" data-aos="fade-up">
+<div className="Section-3 mt-[30px] md:mt-[80px] h-auto w-full flex shadow-2xl shadow-appleblack p-5 bg-transparent" data-aos="fade-up">
 
 <div className="Left w-[50%] h-full flex flex-col">
-        <div className="Certificates bg-white h-full w-full text-sm md:text-2xl">
+        <div className="Certificates bg-transparent h-full w-full text-sm md:text-2xl">
         <h1 className='font-boldfont font-medium text-start ml-5 text-xl md:text-4xl text-crimson' data-aos="fade-right">Education  & <span className='ml-auto'>Certificates</span> </h1>
         <br/>
         <h2 className='font-writingFont font-semibold text-center mt-5' data-aos="fade-right">+2 (Science)</h2>
@@ -39,7 +39,7 @@ return (
 
 
     <div className="Right w-[50%] h-full flex flex-col "data-aos="fade-right">
-    <div className="Competemcies  bg-white h-full w-full text-sm md:text-2xl"data-aos="fade-right">
+    <div className="Competemcies  bg-transparent h-full w-full text-sm md:text-2xl"data-aos="fade-right">
     <h1 className='font-boldfont font-medium text-start ml-10 text-xl md:text-4xl text-crimson'data-aos="fade-right">Key Competencies </h1>
         <br/>
         <h2 className='font-writingFont font-medium text-center'data-aos="fade-right">Critical Thinking</h2>
@@ -54,9 +54,7 @@ return (
         <br/>
 </div>
 </div>
-
-
-    </div>
+</div>
 )
 }
 

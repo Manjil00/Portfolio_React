@@ -12,6 +12,8 @@ return (
     <img src='./logos/css.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='css'></img>
     <img src='./logos/js.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='js'></img>
     <img src='./logos/react.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='react'></img>
+    <img src='./logos/nextjs.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='nextjs'></img>
+    <img src='./logos/prisma.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='prisma'></img>
     <img src='./logos/node.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='node'></img>
     <img src='./logos/express.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='express'></img>
     <img src='./logos/mongo.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='mongo'></img>
@@ -22,6 +24,7 @@ return (
     <img src='./logos/meta.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='meta'></img>
     <img src='./logos/illu.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='illu'></img>
     <img src='./logos/canva.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='canva'></img>
+
 </div>
 </Marquee>
 </div>

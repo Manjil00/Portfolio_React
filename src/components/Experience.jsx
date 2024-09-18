@@ -21,7 +21,7 @@ return (
     <div className="Experience w-full h-full ">
 
     <div className="topic flex justify-center gap-6" data-aos="fade-right">
-    <img src='./images/rocket.png' className='w-[50px] h-[50px] animate-bounce-slow' alt='rocket'/>
+    <img src='./images/rocket.png' className='w-[50px] h-[50px] ' alt='rocket'/>
     <h1 className='text-crimson text-2xl md:text-4xl font-boldfont'> Experiences</h1>
     </div>
 
@@ -33,7 +33,7 @@ return (
     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#000' }}
     icon={<FcManager/>}
 >
-    <h3 className="vertical-timeline-element-title font-writingFont text-sm md:text-xl">Social Media Manager,</h3>
+    <h3 className="vertical-timeline-element-title font-writingFont text-sm md:text-xl">Social Media Manager & SEO analyst,</h3>
     <h4 className="vertical-timeline-element-subtitle font-writingFont text-sm md:text-xl">Digipline Digital Agency,</h4>
     <h4 className="vertical-timeline-element-subtitle font-writingFont text-sm md:text-xl">Australia</h4>
 

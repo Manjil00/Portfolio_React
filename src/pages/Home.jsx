@@ -31,11 +31,11 @@ const Home = () => {
 
     
 return (
-    <div className='main-container w-full h-full leading-relaxed bg-gradient-to-r from-white to-gradientblue' >
+    <div className='main-container w-full h-full leading-relaxed bg-white' >
     <Nav/>
 
     <div className="body h-auto w-full" >
-    <div className="section-1 w-full h-auto flex shadow-2xl shadow-black " >
+    <div className="section-1 w-full h-auto flex " >
 
     <div className="sectionLeft  w-[60%] h-auto "  >
     <Wordrotate/>
@@ -45,7 +45,7 @@ return (
     </div>
 
     <div className="sectionRight w-[40%] h-[350px] md:h-[700px]  ">
-        <img src='./images/profile.jpg' className='z-5 rounded-full bg-white w-[100px] h-[100px] md:w-[500px] md:h-[500px] mt-8 ml-1 md:mt-10 md:ml-10' alt='myphoto' data-aos="fade-up"></img>
+        <img src='./images/main2.png' className='backdrop-blur-xlz-5 rounded-3xl bg-black w-[100px] shadow-appleblack  h-[100px] md:w-[500px] md:h-[500px] mt-8 ml-1 md:mt-10 md:ml-10' alt='myphoto' data-aos="fade-up"></img>
     </div>
         </div>
 
@@ -62,11 +62,11 @@ return (
         <EduKey/>
     </div>
 
-<div id='section-5' className="section-5 bg-transparent  w-full h-[230px] md:h-[300px] rounded-xl mt-16 p-5 shadow-2xl shadow-black" data-aos="fade-up">
+<div id='section-5' className="section-5 bg-gradient-to-r from-white to-blue-100  w-full h-[230px] md:h-[300px] rounded-xl mt-16 p-5 " data-aos="fade-up">
 <Experience/>
 </div>
 
-<div id='section-6' className="section-6 w-full h-auto mt-16 bg-white py-2 md:py-3 rounded-2xl shadow-2xl shadow-black" data-aos="fade-up" >
+<div id='section-6' className="section-6 w-full h-auto mt-16 bg-white py-2 md:py-3 rounded-2xl " data-aos="fade-up" >
 <TechStack/>
 </div>
 

@@ -10,6 +10,7 @@ return (
 <img src='./logos/figma.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='figma'></img>
     <img src='./logos/html.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='html'></img>
     <img src='./logos/css.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='css'></img>
+    <img src='./logos/tailwind.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='tailwind'></img>
     <img src='./logos/js.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='js'></img>
     <img src='./logos/react.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='react'></img>
     <img src='./logos/nextjs.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='nextjs'></img>

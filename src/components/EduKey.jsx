@@ -15,20 +15,19 @@ duration])
 
 return (
 
-<div className="Section-3 mt-[30px] md:mt-[80px] h-auto w-full flex shadow-2xl shadow-appleblack p-5 bg-transparent" data-aos="fade-up">
+<div className="Section-3 mt-[30px] md:mt-[80px] h-auto w-full flex  p-5 bg-transparent" data-aos="fade-up">
 
-<div className="Left w-[50%] h-full flex flex-col">
-        <div className="Certificates bg-transparent h-full w-full text-sm md:text-2xl">
-        <h1 className='font-boldfont font-medium text-start ml-5 text-xl md:text-4xl text-crimson' data-aos="fade-right">Education  & <span className='ml-auto'>Certificates</span> </h1>
+<div className="Left w-[50%] h-full flex flex-col justify-center items-center">
+        <div className="Certificates bg-transparent h-full w-full text-sm md:text-2xl  flex flex-col justify-center items-center">
+        <h1 className='font-boldfont font-medium text-start ml-5 text-xl md:text-4xl text-crimson' data-aos="fade-right">Education  </h1>
         <br/>
         <h2 className='font-writingFont font-semibold text-center mt-5' data-aos="fade-right">+2 (Science)</h2>
-        <h2 className='font-writingFont font-medium text-center'data-aos="fade-right">United Academy</h2>
+        <img src='../logos/united.jpg' className='h-[100px] w-[100px] ' alt='United logo'></img>
         <br/>
         <h2 className='font-writingFont font-semibold text-center'data-aos="fade-right">B.Sc.IT(Hons).Computing</h2>
         <h2 className='font-writingFont font-medium text-center'data-aos="fade-right">Majors: Computing </h2>
-        <h2 className='font-writingFont font-medium text-center'data-aos="fade-right">Softwarica Collage of IT and
-        E-Commerce/
-        <br/> Coventry University </h2>
+        <img src='../logos/softwarica.jpeg' className='h-[100px] w-[100px]' alt='softwarica logo'></img>
+    
 
 
         </div>

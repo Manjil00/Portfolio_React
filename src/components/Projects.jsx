@@ -8,11 +8,9 @@ return (
         <div className="left-top rounded-xl w-full h-[auto] shadow-xl shadow-appleblack">
         <h1 className="font-boldfont text-center md:text-start ml-5 mt-5 text-md md:text-5xl text-crimson">Projects</h1>
         <p className="text-sm md:text-xl text-start m-5">
-        I'm a passionate web developer with a strong foundation in React.js,
-        having built several projects including API-integrated applications,
-        e-commerce websites, and more. As I continue to grow,
-        I'm diving into full-stack development, focusing on building dynamic and responsive websites and apps using the MERN stack.
-        My journey is driven by a love for crafting seamless digital experiences.
+        In terms of web development, I can say that I have a strong hands-on experience with the React.js library and Next.js framework, having created multiple applications and sites within different teams using various APIs.
+        As I develop further, I am stepping into the realm of front and back end technologies, concentrating mainly on creating plays in various forms on the MERN stack.
+        Such commitment for creating any digital quality product in a smooth way has brought me to this path.
         <br />
 
         </p>

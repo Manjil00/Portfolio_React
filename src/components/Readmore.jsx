@@ -4,16 +4,12 @@ const Readmore = () => {
 
     const fullText=(
         <>
-    Hey there! I'm a creative force with a passion for bringing ideas to life on the web.
-    As a UI/UX designer, Frontend and Backend Developer, a Full-Stack enthusiast,
-    and Digital Marketer, From pixel-perfect responsive websites to strategic Digital Marketing,
-    I blend aesthetics with analytics 🚀
+Glad to meet you! I am an imaginative person who loves turning concepts into reality on the web. As a  Full Stack Developer and as a Digital Marketer,
+I create everything from perfectly responsive websites to efficient Digital Marketing Strategies.
         </>
     )
     const halfText=(
-        <> Hey there! I'm a creative force with a passion for bringing ideas to life on the web.
-        As a UI/UX designer, Frontend and Backend Developer, a Full-Stack enthusiast,
-        and Digital Marketer,
+        <> Glad to meet you! I am an imaginative person who loves turning concepts into reality on the web.
         </>
     )
     

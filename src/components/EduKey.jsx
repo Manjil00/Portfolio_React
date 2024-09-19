@@ -22,11 +22,11 @@ return (
         <h1 className='font-boldfont font-medium text-start ml-5 text-xl md:text-4xl text-crimson' data-aos="fade-right">Education  </h1>
         <br/>
         <h2 className='font-writingFont font-semibold text-center mt-5' data-aos="fade-right">+2 (Science)</h2>
-        <img src='../logos/united.jpg' className='h-[100px] w-[100px] ' alt='United logo'></img>
+        <img src='../logos/united.jpg' className='h-[50px] w-[50px]  md:h-[100px] md:w-[100px] ' alt='United logo'></img>
         <br/>
         <h2 className='font-writingFont font-semibold text-center'data-aos="fade-right">B.Sc.IT(Hons).Computing</h2>
         <h2 className='font-writingFont font-medium text-center'data-aos="fade-right">Majors: Computing </h2>
-        <img src='../logos/softwarica.jpeg' className='h-[100px] w-[100px]' alt='softwarica logo'></img>
+        <img src='../logos/softwarica.jpeg' className='h-[50px] w-[50px]  md:h-[100px] md:w-[100px]' alt='softwarica logo'></img>
     
 
 

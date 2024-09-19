@@ -31,7 +31,7 @@ const Home = () => {
 
     
 return (
-    <div className='main-container w-full h-full leading-relaxed bg-white' >
+    <div className='main-container w-full h-full leading-relaxed bg-white'>
     <Nav/>
 
     <div className="body h-auto w-full" >
@@ -44,8 +44,8 @@ return (
 <Socials/>
     </div>
 
-    <div className="sectionRight w-[40%] h-[350px] md:h-[700px]  ">
-        <img src='./images/main2.png' className='backdrop-blur-xlz-5 rounded-3xl bg-black w-[100px] shadow-appleblack  h-[100px] md:w-[500px] md:h-[500px] mt-8 ml-1 md:mt-10 md:ml-10' alt='myphoto' data-aos="fade-up"></img>
+    <div className="sectionRight w-[40%] h-[350px] md:h-[700px]">
+        <img src='./images/main1.png' className='rounded-full bg-black w-[100px] shadow-appleblack  h-[100px] md:w-[500px] md:h-[500px] mt-8 md:mt-10 md:ml-12' alt='myphoto' data-aos="fade-up"></img>
     </div>
         </div>
 

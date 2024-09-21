@@ -3,7 +3,7 @@ import React from 'react'
 const Wordrotate = () => {
 return (
     <div className='NAME_PLACE  font-boldfont text-left text-md md:text-6xl mt-5
-    h-[120px] md:h-[400px] ml-[10px] md:ml-[100px] relative text-white overflow-hidden'>
+    h-[120px] md:h-[400px] ml-[10px] md:ml-[100px] relative text-black overflow-hidden'>
         Hello,
     <br/>I am <span className='text-crimson'>Manjil Maharjan</span> &
     <br/>I am a

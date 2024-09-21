@@ -7,8 +7,8 @@ const CVdownload = () => {
 return (
     <div className="CV w-full h-auto mt-5 flex justify-end">
     <a
-    href='./cv/Manjil_Maharjan_Resume.pdf'
-    download="Manjil_Maharjan_Resume.pdf">
+    href='./cv/Manjil_Maharjan_CV.pdf'
+    download="Manjil_Maharjan_CV.pdf">
     <button className='button-default'>
     <FiDownload/>Download CV</button>
     </a>

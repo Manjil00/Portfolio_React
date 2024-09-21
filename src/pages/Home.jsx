@@ -45,7 +45,7 @@ return (
     </div>
 
     <div className="sectionRight w-[40%] h-[350px] md:h-[700px]">
-        <img src='./images/main1.png' className='rounded-full bg-black w-[100px] shadow-appleblack  h-[100px] md:w-[500px] md:h-[500px] mt-8 md:mt-10 md:ml-12' alt='myphoto' data-aos="fade-up"></img>
+        <img src='./images/main1.png' className='rounded-full w-[100px]  h-[100px] md:w-[500px] md:h-[500px] mt-8 md:mt-10 md:ml-12' alt='myphoto'></img>
     </div>
         </div>
 

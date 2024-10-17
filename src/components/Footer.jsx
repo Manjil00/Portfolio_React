@@ -1,24 +1,31 @@
 import React from 'react'
-import Socials from './Socials';
-import { FcPhone } from "react-icons/fc";
+
+//COMPONENTS
+import Socials from '../components/Socials';
+
+//ICONS
+import { AiOutlineMail } from "react-icons/ai";
+import { LuPhone } from "react-icons/lu";
 
 
 const Footer = () => {
 return (
-    <div className="GetinTouch flex justify-between items-center mx-20 mt-10">
-    <div className="email">
-        <h1 className='text-white text-md md:text-2xl font-writingFont font-bold'>E-mail:</h1>
-        <h2 className='text-white text-xs md:text-2xl font-writingFont font-normal'>business.manzil01@gmail.com</h2>
-        <br/>
-        <h1 className='text-white text-md md:text-2xl font-writingFont font-normal'><FcPhone/>: 9864530504</h1>
-    </div>
 
-        <div className="socials h-[100px] flex flex-col">
-        <Socials/>
+    <div className="footer bg-bgcolor h-[100px] w-full flex justify-between items-center text-slate-500
+    text-xs md:text-xl">
+        <div className="left  w-full mx-4 md:mx-20 text-xs md:text-xl">
+            <h1 className='flex justify-start items-center'><AiOutlineMail /> -
+                manzilmaharjan00@gmail.com
+            </h1>
+
+            <h1 className='flex justify-start items-center text-xs md:text-xl'><LuPhone /> -
+                +977-9864530504
+            </h1>
         </div>
-    
+
+            <Socials/>
     </div>
 )
 }
 
-export default Footer;
+export default Footer

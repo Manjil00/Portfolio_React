@@ -1,35 +1,33 @@
 import React from 'react'
+
 import Marquee from "react-fast-marquee";
 
 
-const TechStack = () => {
+const Techstack = () => {
 return (
-    <div className="TechStack w-full h-auto bg-white">
-    <Marquee pauseOnHover={false} direction='left' delay={1} gradient={false} gradientWidth={20} className="w-full h-full flex justify-center items-center gap-8 rounded-xl ">
-<div className="ICONS flex justify-start items-center mt-5 gap-10 ">
-<img src='./logos/figma.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='figma'></img>
-    <img src='./logos/html.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='html'></img>
-    <img src='./logos/css.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='css'></img>
-    <img src='./logos/tailwind.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='tailwind'></img>
-    <img src='./logos/js.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='js'></img>
-    <img src='./logos/react.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='react'></img>
-    <img src='./logos/nextjs.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='nextjs'></img>
-    <img src='./logos/prisma.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='prisma'></img>
-    <img src='./logos/node.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='node'></img>
-    <img src='./logos/express.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='express'></img>
-    <img src='./logos/mongo.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='mongo'></img>
-    <img src='./logos/git.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='git'></img>
-    <img src='./logos/github.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='github'></img>
-    <img src='./logos/slack.png' className="w-[70px] h-[70px] md:w-[100px] md:h-[100px]" alt='slack'></img>
-    <img src='./logos/trello.png' className="w-[70px] h-[70px] md:w-[100px] md:h-[100px]" alt='trello'></img>
-    <img src='./logos/meta.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='meta'></img>
-    <img src='./logos/illu.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='illu'></img>
-    <img src='./logos/canva.png' className="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" alt='canva'></img>
-
-</div>
-</Marquee>
+    <div className="techStack bg-bgcolorlite w-full h-[100px] mt-10 rounded-xl cursor-pointer">
+    <Marquee pauseOnHover={true} >
+        <img src='../icons/figma.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='figma'/>
+        <img src='../icons/html.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='html'/>
+        <img src='../icons/css.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='css'/>
+        <img src='../icons/tailwind.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='tailwind'/>
+        <img src='../icons/js.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='js'/>
+        <img src='../icons/react.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='react'/>
+        <img src='../icons/nextjs.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='next'/>
+        <img src='../icons/node.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='node'/>
+        <img src='../icons/express.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='express'/>
+        <img src='../icons/mongodb.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='mongodb'/>
+        <img src='../icons/prisma.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='prisma'/>
+        <img src='../icons/git.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='git'/>
+        <img src='../icons/github.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='github'/>
+        <img src='../icons/slack.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='slack'/>
+        <img src='../icons/trello.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='trello'/>
+        <img src='../icons/meta.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='meta'/>
+        <img src='../icons/illustrator.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='illustrator'/>
+        <img src='../icons/canva.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='canva'/>
+    </Marquee>
 </div>
 )
 }
 
-export default TechStack;
+export default Techstack

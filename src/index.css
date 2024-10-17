@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Tai+Heritage+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@600&family=Tai+Heritage+Pro:wght@400;700&family=Zeyada&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-.button-default {
-    @apply w-[100px] h-[40px] md:h-[50px] md:w-[200px]
-    bg-transparent text-xs md:text-sm text-black rounded-xl cursor-pointer
-    hover:h-[50px]
-    hover:md:h-[50px] hover:w-[120px] hover:md:w-[220px] duration-100
-    shadow-xl shadow-appleblack flex items-center justify-center gap-2
-    ;
-}

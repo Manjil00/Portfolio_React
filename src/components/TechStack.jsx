@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Techstack = () => {
 return (
-    <div className="techStack bg-bgcolorlite w-full h-[100px] mt-10 rounded-xl cursor-pointer">
+    <div className="TechStack bg-bgcolorlite w-full h-[100px] mt-10 rounded-xl cursor-pointer">
     <Marquee pauseOnHover={true} >
         <img src='../icons/figma.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='figma'/>
         <img src='../icons/html.png' className='h-[50px] w-[50px] md:w-[70px] md:h-[70px] ml-5' alt='html'/>

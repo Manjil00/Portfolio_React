@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Resume from '../components/Resume';
 import Socials from '../components/Socials';
 import Progress from '../components/progress';
-// import Techstack from '../components/Techstack';
+import Techstack from '../components/Techstack';
 
 
 const Introduction = () => {
@@ -66,7 +66,7 @@ return (
         </div>
 
     </div>
-        {/* <Techstack/> */}
+        <Techstack/>
     </div>
 </div>
 

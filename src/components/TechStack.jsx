@@ -30,4 +30,4 @@ return (
 )
 }
 
-export default Techstack
+export default Techstack;

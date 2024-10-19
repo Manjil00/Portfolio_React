@@ -47,7 +47,7 @@ return (
             <h1 className="UI/UX text-xs md:text-2xl text-slate-500">UI/UX Technologies <br/><span className='font-normal'>(Figma)</span></h1>
             <h1 className="frontend text-xs md:text-2xl text-slate-500">Frontend Technologies <br/><span className='font-normal'>(React.js-Redux, Next.js)</span></h1>
             <h1 className="backend text-xs md:text-2xl text-slate-500">Backend Technologies <br/> <span className='font-normal'>(Prisma, Zod, <br/>Node.js, Express.js)</span></h1>
-            <h1 className="database text-xs md:text-2xl text-slate-500">Database Platforms <br/> <span className='font-normal'>(myAQL, MongoDB)</span></h1>
+            <h1 className="database text-xs md:text-2xl text-slate-500">Database Platforms <br/> <span className='font-normal'>(mySQL, MongoDB)</span></h1>
 
         </div>
     

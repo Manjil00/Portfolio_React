@@ -19,7 +19,7 @@ return (
                 <div className="project1 rounded-xl bg-bgcolor h-auto w-full flex flex-row justify-between items-start">
                     <div className="words mt-3 md:mt-10">
                     <h1 className="title text-white ml-5 font-sans text-lg md:text-2xl font-bold">Ecommerce website for Nursery Firm</h1>
-                    <p className=' text-slate-500 ml-5 font-sans text-xs md:text-lg mt-3  break-words'>Gajendra Nursery's e-commerce site, built with the MERN stack, features user authentication, a shopping cart,<br/>admin dashboard, and a responsive design for browsing and purchasing plants and services. It also includes <br/>a blog and supports gardening service bookings.</p>
+                    <p className=' text-slate-500 ml-5 font-sans text-xs md:text-lg mt-3  break-words'>Gajendra Nursery's e-commerce site, built with the MERN stack, features user authentication, a shopping cart,admin dashboard, and a responsive design for browsing and purchasing plants and services. It also includes a blog and supports gardening service bookings.</p>
                     </div>
                     <div className="imgpart  rounded-tr-xl rounded-br-xl h-full w-[50%]  bg-white flex flex-col justify-center items-center">
                         <div className="upperimg flex ">
@@ -28,7 +28,7 @@ return (
                         </div>
                     <div className="lowerimg flex">
                     <img src='../images/projectsimg/pgmobile.png' className='h-[300px] w-[300px]' alt='pic'/>
-                    <img src='../images/projectsimg/e-commerceaboutus.png' className='h-[50%] w-[50%] rounded-br-xl' alt='pic'/>
+                    {/* <img src='../images/projectsimg/e-commerceaboutus.png' className='h-[50%] w-[50%] rounded-br-xl' alt='pic'/> */}
                     </div>
                     </div>
                 </div>

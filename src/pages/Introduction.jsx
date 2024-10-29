@@ -3,7 +3,7 @@ import React from 'react';
 //COMPONENTS
 import Journey from '../components/Journey';
 import Nav from '../components/Nav';
-import Techstack from '../components/techstack';
+// import Techstack from '../components/techstack';
 import Footer from '../components/Footer';
 import Resume from '../components/Resume';
 import Socials from '../components/Socials';

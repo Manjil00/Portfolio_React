@@ -66,7 +66,7 @@ return (
         </div>
 
     </div>
-        <Techstack/>
+        {/* <Techstack/> */}
     </div>
 </div>
 

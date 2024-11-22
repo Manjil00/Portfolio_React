@@ -2,7 +2,7 @@ import React from 'react'
 
 const Journey = () => {
 return (
-<div className="journey h-auto w-full md:p-8 bg-bgcolor mt-10 md:mt-0">
+<div className="journey h-auto w-[98%]  md:p-8 bg-bgcolor mt-10 md:mt-0">
     <div className="innerJourney bg-bgcolorlite w-full h-auto rounded-xl p-2 md:p-10">
     <h1 className="Journey text-sm lg:text-4xl text-orange-500 font-bold ml-10">JOURNEY</h1>
     <p className='mt-10 text-slate-500 mx-10 text-sm md:text-xl tracking-wider'>I began my journey in web development with a strong focus on frontend technologies, particularly React.js. As I progressed, I honed my expertise in building dynamic and responsive web applications. I leveraged tools like Redux for efficient state management and Tailwind CSS for crafting streamlined, aesthetically pleasing user interfaces.<br/>

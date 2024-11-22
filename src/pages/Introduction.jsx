@@ -1,12 +1,12 @@
 import React from 'react';
 
 //COMPONENTS
+import Footer from '../components/Footer';
 import Journey from '../components/Journey';
 import Nav from '../components/Nav';
-// import Techstack from '../components/techstack';
-import Footer from '../components/Footer';
 import Resume from '../components/Resume';
 import Socials from '../components/Socials';
+import Tech from '../components/Tech';
 import Progress from '../components/progress';
 
 
@@ -16,7 +16,7 @@ return (
 
     <Nav/>
 
-    <div className="Section1 w-full h-auto md:p-8 bg-bgcolor">
+    <div className="Section1 w-[98%]  h-auto md:p-8 bg-bgcolor">
 
 <div className="innerContainer bg-bgcolorlite rounded-xl h-[600px] w-full relative flex flex-col md:flex-row  ">
     <div className="text flex flex-col justify-start items-start ml-4 md:ml-44">
@@ -32,13 +32,13 @@ return (
     </div>
 
     <div className="img">
-    <img src='../images/pfpwhite.png' className='h-[200px] w-[150px]  lg:h-[300px] lg:w-[300px] xl:h-[450px] xl:w-[450px] rounded-full border-4 border-bgcolorlite absolute right-10 md:bottom-10 object-cover bg-opacity-30 ' alt='Pfp'/>
+    <img src='../images/pfpwhite.png' className='h-[200px] w-[150px]  lg:h-[300px] lg:w-[300px] xl:h-[450px] xl:w-[450px] rounded-3xl  md:rounded-full border-4 border-bgcolorlite absolute right-10 md:bottom-10 object-cover bg-opacity-30 ' alt='Pfp'/>
     </div>
 </div>
 </div>
 
 
-<div className="Section2 h-auto w-full bg-bgcolor md:px-8  mt-5 md:mt-0">
+<div className="Section2 h-auto w-[98%] bg-bgcolor md:px-8  mt-5 md:mt-0">
     <div className="innercontainer2 bg-bgcolorlite h-auto w-full rounded-xl flex flex-col justify-start items-start ">
     <h1 className="tech text-sm lg:text-4xl text-orange-500 mt-20 ml-10 font-bold ">TECHNICAL PROFICENCY</h1>
 
@@ -66,11 +66,11 @@ return (
         </div>
 
     </div>
-        {/* <Techstack/> */}
+    <div className="techstack w-full">
+    <Tech/>
+    </div>
     </div>
 </div>
-
-
     <Journey/>
     <Footer/>
 

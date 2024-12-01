@@ -21,16 +21,29 @@ return (
         <h1 className="title font-bold text-orange-500 text-xl md:text-4xl ml-10 md:mt-10">CERTIFICATES</h1>
         <div className="certificate1 flex justify-between items-start mt-10 h-auto w-full py-2">
             <div className="words p-2 ml-5 h-auto w-auto gap-5">
-            <h1 className='text-xl md:text-2xl font-bold text-white'>7 Hour FullStack NextJs Bootcamp<span className='text-red-500'>(JobSniper Academy)</span></h1>
-            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The 7-hour Next.js bootcamp conducted by JobSniper was an in-depth session aimed at providing participants with a comprehensive introduction to building full-stack web applications using Next.js. The bootcamp covered both frontend and backend development, focusing on essential tools and frameworks such as Prisma for database management and Zod for data validation and type safety. Attendees learned to create and deploy projects with Next.js, emphasizing key features like server-side rendering (SSR), static site generation (SSG), and API routes.</p>
+            <h1 className='text-xl md:text-2xl font-bold text-white'>FullStack NextJs Bootcamp<span className='text-red-500'><br/>(JobSniper Academy)</span></h1>
+            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5"> Next.js bootcamp conducted by JobSniper was an in-depth session aimed at providing participants with a comprehensive introduction to building full-stack web applications using Next.js. I learned to create and deploy projects with Next.js, emphasizing key features like server-side rendering (SSR), static site generation (SSG), and API routes.</p>
             </div>
             <img src='../images/certificatesimg/nextjsBootcamp.png' className='bg-white h-[150px] w-[150px] md:h-[300px] md:w-[300px] mr-2 md:mr-20' alt='certificates'/>
         </div>
 
         <div className="certificate2 flex justify-between items-start mt-10 h-auto w-full">
             <div className="words p-2 ml-5 h-auto w-auto gap-5">
-            <h1 className='text-xl md:text-2xl font-bold text-white'>Agile and Scrum Fundamentals <span className='text-blue-500'>(Softwarica College of IT and E-commerce)</span></h1>
-            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The Agile and Scrum Fundamentals course conducted by Softwarica College provided a strong foundation in modern project management methodologies. The course focused on Agile's iterative approach and the Scrum framework, emphasizing teamwork, flexibility, and continuous improvement. It was valuable for learning how to manage projects efficiently, ensuring adaptability to change and delivering high-quality products. Through real-world examples and hands-on activities, students experienced sprint planning, daily standups, and retrospectives, making it an ideal course for anyone looking to excel in collaborative and dynamic environments. Earning the certificate showcased practical skills for today's fast-paced tech industry.</p>
+            <h1 className='text-xl md:text-2xl font-bold text-white'>React.js Developer Intern<span className='text-blue-800'><br/>(CodSoft)</span></h1>
+            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The Codsoft Internship was an enriching experience that sharpened my React.js and frontend development skills through hands-on projects. I built responsive web applications, integrated APIs, and worked on state management using Redux. This internship provided valuable insights into industry practices and prepared me for real-world challenges in web development.</p>
+            </div>
+            <div className="imgcontainer w-[1200px] h-auto md:w-auto flex flex-col md:flex-row gap-5 md:mr-[300px]">
+            <img src='../images/certificatesimg/offerletter_Codsoft.png' className='bg-white h-[150px] w-[150px] md:h-[300px] md:w-[300px] mr-1 md:mr-10' alt='certificates'/>
+            <img src='../images/certificatesimg/react_certificate.png' className='bg-white h-[150px] w-[150px] md:h-[300px] md:w-[300px] mr-2 md:mr-20' alt='certificates'/>
+            </div>
+            
+        </div>
+
+
+        <div className="certificate2 flex justify-between items-start mt-10 h-auto w-full">
+            <div className="words p-2 ml-5 h-auto w-auto gap-5">
+            <h1 className='text-xl md:text-2xl font-bold text-white'>Agile and Scrum Fundamentals <span className='text-blue-500'><br/>(Softwarica College of IT and E-commerce)</span></h1>
+            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The Agile and Scrum Fundamentals course conducted by Softwarica College provided a strong foundation in modern project management methodologies. The course focused on Agile's iterative approach and the Scrum framework, emphasizing teamwork, flexibility, and continuous improvement. Through real-world examples and hands-on activities, I experienced sprint planning, daily standups, and retrospectives, making it an ideal course for anyone looking to excel in collaborative and dynamic environments. Earning the certificate showcased practical skills for today's fast-paced tech industry.</p>
             </div>
             <img src='../images/certificatesimg/agileCertificate.jpg' className='bg-white h-[150px] w-[150px] md:h-[300px] md:w-[300px] mr-2 md:mr-20' alt='certificates'/>
         </div>
@@ -38,8 +51,8 @@ return (
 
         <div className="certificate3 flex justify-between items-start mt-20 md:mt-10 h-auto w-full">
             <div className="words p-2 ml-5 h-auto w-auto">
-            <h1 className='text-xl md:text-2xl font-bold text-white'>Digital Marketing Workshop <span className='text-blue-500'>(Softwarica College of IT and E-commerce)</span></h1>
-            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The Digital Marketing Workshop at Softwarica College offered a comprehensive introduction to modern marketing strategies, focusing on digital channels like social media, SEO, content marketing, and analytics. The workshop was designed to help students understand the key tools and techniques for building online brand presence, engaging audiences, and driving growth. Through practical exercises and real-world case studies, participants learned how to create effective campaigns, optimize websites for search engines, and analyze performance metrics. Completing this workshop equipped students with valuable skills to thrive in the fast-evolving digital marketing landscape.</p>
+            <h1 className='text-xl md:text-2xl font-bold text-white'>Digital Marketing Workshop <span className='text-blue-500'><br/>(Softwarica College of IT and E-commerce)</span></h1>
+            <p className="text-slate-500 text-xs md:text-lg font-sans font-normal break-words mt-5">The Digital Marketing Workshop at Softwarica College offered a comprehensive introduction to modern marketing strategies, focusing on digital channels like social media, SEO, content marketing, and analytics. The workshop was designed to help understand the key tools and techniques for building online brand presence, engaging audiences, and driving growth. Through practical exercises and real-world case studies, participants learned how to create effective campaigns, optimize websites for search engines, and analyze performance metrics.</p>
             </div>
             <img src='../images/certificatesimg/MarketingCerti.jpg' className='bg-white h-[150px] w-[150px] md:h-[300px] md:w-[300px] mr-2 md:mr-20' alt='certificates'/>
         </div>

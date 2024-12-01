@@ -5,7 +5,7 @@ import { RiDownloadLine } from "react-icons/ri";
 
 const Resume = () => {
 return (
-    <div className="Resume  w-auto h-auto mt-10 text-sm lg:text-xl  bg-bgcolor">
+    <div className="Resume  w-auto h-auto mt-10 text-sm lg:text-xl  bg-bgcolor rounded-xl">
     <a
     href='./resume/ManjilMaharjan_Resume.pdf'
     download="ManjilMaharjan_Resume.pdf">
